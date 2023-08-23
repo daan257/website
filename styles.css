@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  color: white; /* Set default text color to white */
+}
+
+/* Style for the whole page */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white; /* Set navigation link color to white */
+  font-weight: bold;
+}
+
+/* Search input and button styles */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.srch {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Add a slight white background for the search input */
+  color: white; /* Set search input text color to white */
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #ff8612;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Content styles */
+.content {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  color: white;
+}
+
+h1 span {
+  color: #007bff;
+}
+
+.par {
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+}
